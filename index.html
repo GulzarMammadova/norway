@@ -1,48 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div class="nav-bar">
-          <div class="nav-logo">
-            <p>LOGO</p>
-          </div>
-          <div class="nav-menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="./style/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <header class="nav-bar">
+      <div class="menu">
+        <a href="#"><img src="./pics/Menu Icon.svg" alt="menu-icon"></a>
+      </div>
+      <div class="search-bar"> <input type="text" placeholder="Search here">
+      </div>
+      <div class="profile-pic">
+       <a href="#"><img src="./pics/Profile Pic.svg" alt="profile-pic"></a>
+      </div>
+    </header>
+    <section class="slide-bar">
+      <div class="slide-nav">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <section id="dashboard">
+      <div class="common-title">
+        <img class="title-logo" src="./pics/dashboard.svg" alt="logo" title="logo" />
+        <h2 class="title-text">Dashboard</h2>
+      </div>
+      <div class="dashboard-boxes">
+        <div class="box-likes">
+          <img class="box-logo" src="./pics/likes.svg" alt="total-likes" />
+          <p class="box-text">Total Likes</p>
+          <span class="box-count">12.530</span>
         </div>
-      </header>
-      <section class="sign-up">
-        <div class="sign-up-content">
-          <h3 class="sign-up-title">
-            There is no one who loves pain itself, who seeks
-          </h3>
-          <p class="sign-up-description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been
-          </p>
-          <button class="sign-up-button">Sign up</button>
+        <div class="box-comments">
+          <img class="box-logo" src="./pics/comment.svg" alt="comment" />
+          <p class="box-text">Comments</p>
+          <span class="box-count">12.530</span>
         </div>
-        <div class="images">
-          <div class="big">
-            <img src="./pics/interior-1.jpg" alt="pic" />
-          </div>
-          <div class="small"><img src="./pics/interior-2.png" alt="pic" /></div>
+        <div class="box-share">
+          <img class="box-logo" src="./pics/share.svg" alt="total-share" />
+          <p class="box-text">Total Share</p>
+          <span class="box-count">12.530</span>
         </div>
-      </section>
-    </main>
-  </body>
+    </section>
+    <section id="activity">
+      <div class="activity-title">
+        <img class="title-logo" src="./pics/activity.svg" alt="logo" title="logo" />
+        <h2 class="title-text">Recent Activity</h2>
+      </div>
+      <div class="activity-table">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Joined</th>
+          <th>Type</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Prem Shahi</td>
+          <td>premshahi@gmail.com</td>
+          <td>2022-02-12</td>
+          <td>New</td>
+          <td>Liked</td>
+        </tr>
+        <tr>
+          <td>Deepa Chand</td>
+          <td>deepachand@gmail.com</td>
+          <td>2022-02-12</td>
+          <td>Member</td>
+          <td>Shared</td>
+        </tr>
+        <tr>
+          <td>Prem Shahi</td>
+          <td>premshahi@gmail.com</td>
+          <td>2022-02-13</td>
+          <td>New</td>
+          <td>Liked</td>
+        </tr>
+        <tr>
+          <td>Manisha Chand</td>
+          <td>manishachand@gmail.com</td>
+          <td>2022-02-13</td>
+          <td>Member</td>
+          <td>Shared</td>
+        </tr>
+      </table>
+    </div>
+    </section>
+  </main>
+</body>
+
 </html>
