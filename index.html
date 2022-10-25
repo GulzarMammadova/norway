@@ -6,37 +6,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   <link rel="stylesheet" href="./style/main.css" />
   <title>Document</title>
 </head>
-
 <body>
   <main>
-    <header class="nav-bar">
+    <section id="panel">
+      <div class="logo">
+        <a href="#"><img src="./pics/Logo.svg" alt="logo"></a>
+      </div> 
       <div class="menu">
-        <a href="#"><img src="./pics/Menu Icon.svg" alt="menu-icon"></a>
-      </div>
-      <div class="search-bar"> <input type="text" placeholder="Search here">
-      </div>
-      <div class="profile-pic">
-       <a href="#"><img src="./pics/Profile Pic.svg" alt="profile-pic"></a>
-      </div>
-    </header>
-    <section class="slide-bar">
-      <div class="slide-nav">
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i>Dashboard</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-file"></i>Content</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-square-poll-vertical"></i>Analytics</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-thumbs-up"></i>Likes</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-comment"></i>Comments</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+          </li>
+        </ul>
+        
+      </div>
+      <div class="menu-bottom">
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-right-from-bracket"></i>Logout</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-moon"></i>Dark Mode
+              <i class="custom fa-solid fa-toggle-on"></i
+            ></a>
+          </li>
         </ul>
       </div>
     </section>
     <section id="dashboard">
+      <div class="search">
+        <div class="search-bar">
+          <img src="./pics/Menu Icon.svg" alt="menu-icon" title="menu-icon">
+          <input type="text" placeholder="Search here">
+        </div>
+      <div class="profile-pic">
+       <a href="#"><img src="./pics/Profile Pic.svg" alt="profile-pic"></a>
+      </div>
+    </div>
       <div class="common-title">
         <img class="title-logo" src="./pics/dashboard.svg" alt="logo" title="logo" />
         <h2 class="title-text">Dashboard</h2>
@@ -57,8 +92,9 @@
           <p class="box-text">Total Share</p>
           <span class="box-count">12.530</span>
         </div>
-    </section>
-    <section id="activity">
+        </div>
+   
+    <div class="activity">
       <div class="activity-title">
         <img class="title-logo" src="./pics/activity.svg" alt="logo" title="logo" />
         <h2 class="title-text">Recent Activity</h2>
@@ -102,7 +138,9 @@
         </tr>
       </table>
     </div>
+    </div>
     </section>
+  </section>
   </main>
 </body>
 
